@@ -1,0 +1,8 @@
+pip install git+https://github.com/wwzz3077/python_world#egg=python_world
+
+from python_world import world
+help(world)
+print(world.world()
+
+
+__init__.py
