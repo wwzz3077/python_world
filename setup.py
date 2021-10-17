@@ -1,9 +1,9 @@
-from setuptools import setup
+import setuptools
 
 with open('README.md', 'r') as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name = 'python_world',
     version = '0.0.1',
     author = 'wtzhao',
@@ -12,6 +12,6 @@ setup(
     long_description = long_description,
     long_description_content_type = 'text/markdown',
     url = "https://github.com/wwzz3077/python_world",
-    #packages = setuptools.find_packages(),
+    packages = setuptools.find_packages(),
     keywords=['pip', 'package', 'wtzhao', 'python-world']
 )
