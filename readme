@@ -2,9 +2,11 @@ pip uninstall python_world
 pip install git+https://github.com/wwzz3077/python_world#egg=python_world
 
 
-from python_world import python_world, world
+from python_world import world
 help(world)
 print(world.world()
 
+import python_world
+print(python_world.direct_world())
 
 __init__.py
