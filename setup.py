@@ -15,4 +15,3 @@ setup(
     #packages = setuptools.find_packages(),
     keywords=['pip', 'package', 'wtzhao', 'python-world']
 )
-)
